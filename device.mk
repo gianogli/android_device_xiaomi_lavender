@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
 # FM
 BOARD_HAVE_QCOM_FM := true
 
+# MatLog App
+TARGET_DISABLE_MATLOG := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     LavenderApertureOverlay \
