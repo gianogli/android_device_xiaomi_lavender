@@ -135,6 +135,9 @@
          time to finish the first frame before the display is physically powered on. -->
     <integer name="config_screenOnReadyDelay">200</integer>
 
+    <!-- Whether system_update_settings should be shown or not. -->
+    <bool name="config_show_system_update_settings">false</bool>
+
   <!-- List of system apps that are allowed to be locked with app lock.
         Use with extreme caution. -->
   <string-array name="config_appLockAllowedSystemApps" translatable="false" />
